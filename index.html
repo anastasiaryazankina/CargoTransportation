@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>HomePage</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" 
+integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous"> 
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+    <script src="js/polyline.js" type="text/javascript"></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Bad+Script|Caveat:700|Marck+Script");
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12"></div>
+        </div>
+        <div class="row">
+          <div class="span">
+            <img src="images/logo.png" alt="could not find" class="rounded-circle">
+          </div>
+          <div class="span">
+            <h1>РАДЫ ПРИВЕТСТВОВАТЬ НА НАШЕМ САЙТЕ</h1>
+            <ul class="nav justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link active">Наши услуги</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacts.html">Контакты</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>     
+    </header>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12"></div>
+        <div class="span">
+          <h3>
+            <img src="https://png.icons8.com/material/50/000000/tracks.png">СИСТЕМА ВИЗУАЛИЗАЦИИ И МОНИТОРИНГА ТРАСПОРТНО-ЛОГИСТИЧЕСКИХ ПРОЦЕССОВ
+          </h3>
+        </div>
+        <div class="col-md-12"></div>
+        <div class="span">
+         Разработанная система позволяет контролировать выполнение плана грузоперевозок, производить поиск порожних вагонов и фильтрацию по станциям, управлять техническими процессами и многое другое.
+        </div>
+        <div class="col-md-12"></div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="span">
+          <h3>
+            <img src="https://png.icons8.com/material/50/000000/tracks.png">ИНТЕРАКТИВНАЯ КАРТА
+          </h3>
+        </div>
+        <div class="col-md-12"></div>
+        <div class="span">
+          Данная интерактивная карта отображает текущее нахождение вагонов, простаивающие вагоны станции дислокациип. Используя фильтр, можно осуществлять выборку вагонов по типу груза, типу вагона, наличию груза, названию станции.
+        </div>
+        <div class="col-md-12"></div>
+        <div class="col-md-7">
+          <div class="span">
+            <div id="map"></div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="col-md-12"></div>
+          <div class="span">
+            <h3>Укажите тип вагона:</h3>
+            <select class="form-control">
+              <option>Цистерны</option>
+              <option>Термо-вагон</option>
+              <option>Для контейнеров</option>
+              <option>Для сыпучих товаров</option>
+            </select>
+          </div>
+          <div class="col-md-12"></div>
+          <div class="span">
+            <h3>Укажите пункт отправки:</h3>
+            <select class="form-control">
+              <option>Калуга</option>
+              <option>Тюмень</option>
+              <option>Пермь</option>
+              <option>Нижний Новгород</option>
+              <option>Москва</option>
+            </select>
+          </div>
+          <div class="col-md-12"></div>
+          <div class="span">
+            <h3>Укажите пункт прибытия:</h3>
+            <select class="form-control">
+              <option>Воронеж</option>
+              <option>Пермь</option>
+              <option>Великий Новгород</option>
+              <option>Иваново</option>
+              <option>Москва</option>
+            </select>
+           </div>
+        </div>
+        <div class="col-md-12"></div>
+      </div>
+    </div>
+    <footer>
+      <span class="copyright">
+        <p>2018 &copy; Все права защищены.</p>
+      </span>
+    </footer>
+  </body>
+</html> 
