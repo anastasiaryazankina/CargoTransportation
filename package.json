@@ -1,0 +1,25 @@
+{
+  "name": "cargotransportation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anastasiaryazankina/CargoTransportation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anastasiaryazankina/CargoTransportation/issues"
+  },
+  "homepage": "https://github.com/anastasiaryazankina/CargoTransportation#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  },
+  "dependencies": {
+    "color-convert": "^1.9.2"
+  }
+}
